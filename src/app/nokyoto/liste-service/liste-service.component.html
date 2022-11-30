@@ -1,0 +1,24 @@
+<div class="liste">
+  <ul *ngFor="let schem of schema; let i = index">
+    <li>
+      <div class="card" id="article" style="width: 25rem;">
+        <img class="card-img-top" src="{{ schem.url }}" alt="Card image cap" />
+        <div class="card-body">
+          <a>
+          <h5 class="card-title">{{ schem.sous_partie }}</h5>
+        </a>
+          <span class="card-text">
+            <ul>
+              <!--   
+             <ng-container *ngFor=" let liste of schem.liste_sous_partie">  </ng-container> 
+                <li>
+                  <a href="#"> > {{liste}} </a>
+                </li>
+                 -->
+            </ul>
+          </span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

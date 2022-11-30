@@ -1,0 +1,36 @@
+.carousel .carousel-item {
+    max-height:550px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    max-height:600px;
+}
+.container{
+    display: flex;
+    border-radius: 10px;
+  
+    box-shadow: 0 0 0 0 rgb(195, 195, 196);
+    
+    height: 700px;
+    margin: 10px;
+    justify-items: space-around;
+    
+}
+
+.leftSide{
+    background-color: rgb(196, 139, 196);
+    height: 600px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.rightSide img{
+   
+    height: 600px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.blackFriday img {
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.liste {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+  
+}
+
+
+.liste ul li {
+  list-style: none;
+}
+.card img {
+  height: 200px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.card{
+  border: 0px;
+    width: 700px;
+    max-height: 300px;
+    min-height: 300px;
+    align-items: center;
+}
+
+.card-title:hover{
+  cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+  }
